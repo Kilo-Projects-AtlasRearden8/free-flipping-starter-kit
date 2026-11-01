@@ -1,0 +1,5 @@
+node_modules/
+.DS_Thumbs
+Thumbs.db
+*.log
+coverage/

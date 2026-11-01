@@ -1,0 +1,61 @@
+/* Free Flipping Starter Kit — print styles */
+@media print {
+  * {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  header,
+  nav,
+  footer,
+  .no-print,
+  button,
+  [class^='icon-'] {
+    display: none !important;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  section {
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
+  }
+
+  h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.25rem;
+    font-size: 1.25rem;
+  }
+
+  body {
+    font-size: 10.5pt;
+    line-height: 1.4;
+  }
+
+  .card {
+    background: #fff !important;
+    border: 1px solid #000;
+  }
+
+  input,
+  select {
+    border: 1px solid #000;
+    background: #fff !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .result {
+    display: block !important;
+    border: 1px solid #000;
+  }
+}
