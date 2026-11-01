@@ -1,5 +1,11 @@
-node_modules/
-.DS_Thumbs
-Thumbs.db
 *.log
+*.pyc
+.DS_Thumbs
+.env
+.env.*
+.venv/
+Thumbs.db
+__pycache__/
 coverage/
+dist/*.tmp
+node_modules/
